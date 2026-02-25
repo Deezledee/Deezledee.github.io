@@ -2,13 +2,10 @@ baseURL: /
 languageCode: en-us
 build:
   writeStats: true
-title: aafu theme
-# Uncomment below to use aafu as hugo theme. See instructions in README.md
-# theme: aafu
 
 params:
   tailwind: '"npx tailwindcss"'
-  author: Darshan Baral
+  author: Diana Dee Kalstein
   description: Website title
   copyright: coded by Dee
   theme:
