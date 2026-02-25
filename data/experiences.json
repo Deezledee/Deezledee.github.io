@@ -1,27 +1,72 @@
 {
   "title": "Experiences",
   "icon": "bi bi-briefcase",
-  "list": [{
-      "position": "Job Title",
-      "dates": "2022 - *Present*",
-      "url": "#",
-      "company": "Company Name"
-    },
+  "list": [
     {
-      "position": "Job Title",
-      "dates": "2019 - 2022",
-      "company": "Company Name",
+      "position": "Interface Manager (Backend)",
+      "dates": "2025",
+      "company": "Eshop Guide",
       "details": [
-        "Printed from desktop. Sent [emails](#). Called people *using* telephone.",
-        "Drank water from office cooler.",
-        "Ate donuts on people's birthdays."
+        "Implemented data migrations and integrations between legacy systems and Shopify using Synesty, middleware tools, connectors, and GraphQL.",
+        "Created and maintained process and flow documentation for transparency and traceability.",
+        "Performed data mapping and transformation to ensure consistency and data integrity.",
+        "Coordinated with clients, project managers, and stakeholders to analyze requirements and deliver tailored solutions.",
+        "Applied new technologies including Shopify Liquid and low-code tools for flexible interface development."
       ]
     },
     {
-      "position": "Job Title",
+      "position": "Application Manager (ERP)",
+      "dates": "2024",
+      "company": "Flink SE, Berlin, Germany",
+      "details": [
+        "Developed complex SQL queries in Oracle Cloud Infrastructure to build and troubleshoot error dashboards.",
+        "Validated flagged records with stakeholders and resolved data discrepancies between Oracle and supplier databases.",
+        "Automated workflows in CommerceTools using Airtable through API integrations.",
+        "Created Python scripts for bulk product and category updates via CSV uploads in CommerceTools."
+      ]
+    },
+    {
+      "position": "Interface Developer (Backend C#)",
+      "dates": "2023 - 2024",
+      "company": "Würth Elektronik Group GmbH, Berlin, Germany",
+      "details": [
+        "Developed ERP interfaces in C# to ensure seamless integration and system functionality.",
+        "Implemented delivery-focused interface solutions to improve shipment accuracy and operational efficiency.",
+        "Used RabbitMQ message queues to improve communication across ERP system components."
+      ]
+    },
+    {
+      "position": "IT Specialist & Data Protection",
+      "dates": "2021 - 2023",
+      "company": "Learnfield GmbH (Skoove), Berlin, Germany",
+      "details": [
+        "Supported GDPR compliance, coordinated with the data privacy officer, and consolidated DPA/SCC documentation for cloud services.",
+        "Provided IT security awareness guidance for colleagues and managers.",
+        "Led a password-management improvement project and optimized application access permissions.",
+        "Maintained and optimized employee devices and office IT setup.",
+        "Configured internal infrastructure including access points, DNS, router, switch, and load balancing."
+      ]
+    },
+    {
+      "position": "Collection Referent",
       "dates": "2018 - 2019",
-      "url": "#",
-      "company": "Company Name"
+      "company": "Clal Insurance Ltd, Tel-Aviv, Israel",
+      "details": [
+        "Monitored customer accounts and historical billing data to identify outstanding debt.",
+        "Negotiated payment plans and coordinated with credit agencies, insurance companies, lawyers, and employers.",
+        "Prepared debt reports and processed related documentation and data entry."
+      ]
+    },
+    {
+      "position": "Business Banker",
+      "dates": "2017 - 2018",
+      "company": "Bank Hapoalim Ltd, Tel-Aviv, Israel",
+      "details": [
+        "Delivered financial services for small businesses including loans, credit products, and repayment strategy guidance.",
+        "Assessed creditworthiness and supported clients from onboarding through ongoing account management.",
+        "Recruited new clients and strengthened long-term customer relationships.",
+        "Collaborated with internal teams to provide efficient banking solutions and resolve client needs promptly."
+      ]
     }
   ]
 }

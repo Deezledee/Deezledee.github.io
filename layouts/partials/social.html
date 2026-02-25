@@ -1,12 +1,14 @@
-<h1 class="mb-0">{{ .Site.Data.profile.name }}</h1>
-<h2 class="mb-0">{{ .Site.Data.profile.tagline }}</h2>
-<h3 class="mb-4">{{ .Site.Data.profile.location }}</h3>
+<h1 class="mb-0 text-white">{{ .Site.Data.profile.name }}</h1>
+<h2 class="mb-0 tagline" style="color: oklch(0.795 0.184 86.047);">{{ .Site.Data.profile.tagline }}</h2>
+<h3 class="mb-4 text-white">{{ .Site.Data.profile.location }}</h3>
 <div class="mb-4 flex flex-wrap justify-center">
   {{ range $key, $value := .Site.Data.social }}
-  <div class="mx-2">
-    <a class="text-2xl" href="{{ .url }}">
-      <i class="mt-1 {{ $value.icon }}"></i>
-    </a>
-  </div>
+    {{ if or (in (lower $value.title) "linkedin") (in (lower $value.title) "github") }}
+      <div class="mx-2">
+        <a class="text-2xl" href="{{ $value.url }}" target="_blank" rel="noopener noreferrer" style="color: #000000;">
+          <i class="mt-1 {{ $value.icon }}"></i>
+        </a>
+      </div>
+    {{ end }}
   {{ end }}
 </div>

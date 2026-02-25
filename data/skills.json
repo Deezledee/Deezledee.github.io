@@ -2,18 +2,48 @@
   "title": "Skills",
   "panelId": "skill-panel",
   "icon": "bi bi-list-check",
-  "list": [
+  "topics": [
     {
-      "skill": "Skill 1, Skill 2",
-      "skillrating": 90
+      "title": "Full-Stack Web Development",
+      "items": [
+        "HTML | CSS | JavaScript (ES6) | TypeScript | React | ReactJs | Material UI | Bootstrap | ExpressJs | NodeJs | MongoDB | Axios | Git | GitHub | P5 Js"
+      ]
     },
     {
-      "skill": "Skill 3",
-      "skillrating": 80
+      "title": "Data Science & ML",
+      "items": [
+        "Python | Pandas | scikit-learn | Classification | Regression | Clustering | Feature Engineering | Model Evaluation | Time Series | NLP"
+      ]
     },
     {
-      "skill": "Skill 4",
-      "skillrating": 50
+      "title": "Deep Learning & CV",
+      "items": [
+        "PyTorch | TensorFlow | Keras | CNNs | Transfer Learning | OpenCV | Transformers"
+      ]
+    },
+    {
+      "title": "MLOps & Deployment",
+      "items": [
+        "Docker | ML Pipelines | Data APIs | Streamlit | Git/GitHub | Linux | Bash | AWS (Fundamentals) | Airtable | API Integrations | OCI | SAP & ERP"
+      ]
+    },
+    {
+      "title": "Data & Visualization",
+      "items": [
+        "SQL | Matplotlib | Seaborn | Plotly | Data Cleaning | EDA"
+      ]
+    },
+    {
+      "title": "Language Proficiencies",
+      "items": [
+        "English (C1, Full Professional Proficiency) | German (C2, Full Professional Proficiency) | Hebrew (Native Speaker)"
+      ]
+    },
+    {
+      "title": "Soft Skills",
+      "items": [
+        "Analytical Skills | Problem Solving | Effective Communication Skills | Collaboration Skills | Empathy | Time Management | Creativity | Responsibility | Multitasking | Organizational & Planning Skills"
+      ]
     }
   ]
 }

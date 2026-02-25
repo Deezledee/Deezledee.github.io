@@ -7,12 +7,11 @@
 {{ if .thesis_title }}
 {{ if .thesis_url }}
 <p class="ms-2">
-  Thesis:
   <a href="{{ .thesis_url }}"><i>{{ .thesis_title }}</i></a>
 </p>
 {{ else }}
 <p>
-  Thesis: <i>{{ .thesis_title }}</i>
+  <i>{{ .thesis_title }}</i>
 </p>
 {{ end }}
 {{ end }}

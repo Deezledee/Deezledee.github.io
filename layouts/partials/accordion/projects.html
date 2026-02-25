@@ -1,6 +1,7 @@
 {{ range.Site.Data.projects.list }}
-<h4>
-  <a href="{{ .url }}">{{- .title -}}</a>
-</h4>
-<p class="markdownify indent-8">{{- .description | markdownify -}}</p>
+<p class="mb-1 font-semibold">• <span class="underline" style="color: oklch(0.795 0.184 86.047);">{{ .title }}</span></p>
+<p class="mb-1">
+  <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="underline">View Project</a>
+</p>
+<p class="markdownify mb-3">{{- .description | markdownify -}}</p>
 {{ end }}

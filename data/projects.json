@@ -3,24 +3,29 @@
   "icon": "bi bi-kanban",
   "list": [
     {
-      "title": "Project 1",
-      "url": "#",
-      "description": "Description of the project"
+      "title": "Karate Portal (Final Bootcamp Project)",
+      "url": "https://getdojo.netlify.app/",
+      "description": "Built a full-stack karate portal where users can sign up, log in, manage their karateka profile, browse techniques, and explore martial-arts personalities with CRUD functionality."
     },
     {
-      "title": "Project 2",
-      "url": "#",
-      "description": "Description of the project"
+      "title": "P5 Browser Game",
+      "url": "https://my-family-guy-game.netlify.app/",
+      "description": "Developed an entertaining Chrome browser game using P5.js, focused on interactive gameplay and front-end logic."
     },
     {
-      "title": "Project 3",
-      "url": "#",
-      "description": "Description of the project"
+      "title": "React Dictionary App",
+      "url": "https://dees-dictionary.netlify.app/",
+      "description": "Created a React-based dictionary application integrating live data sources and user-friendly UI components."
     },
     {
-      "title": "Project 4",
-      "url": "#",
-      "description": "Description of the project"
+      "title": "Weather Web Application",
+      "url": "https://adoring-kowalevski-9714eb.netlify.app/",
+      "description": "Built a weather web app with live API data integration and a responsive front-end experience."
+    },
+    {
+      "title": "COVID-19 Detection from Chest X-Ray Images",
+      "url": "/docs/COVID-19%20Detection%20from%20Chest%20X-Ray%20Images%20Project.pdf",
+      "description": "Data science project on COVID-19 detection from chest X-ray images, developed collaboratively in a group setting. Includes a Grad-CAM interpretability demonstration in a Streamlit app currently running on localhost (not hosted)."
     }
   ]
 }

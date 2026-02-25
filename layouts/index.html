@@ -1,7 +1,7 @@
 {{ define "main" }}
-<div class="grid grid-cols-1 md:grid-cols-5 gap-2 sm py-2">
-  <div class="col-span-2">
-    <div class="bg-gray-300 dark:bg-darker drop-shadow-md p-2 rounded-t-lg">
+<div class="grid grid-cols-1 lg:grid-cols-5 gap-2 sm:gap-4 py-2 px-2 sm:px-0">
+  <div class="lg:col-span-2">
+    <div class="bg-gray-300 dark:bg-darker drop-shadow-md p-2 sm:p-4 rounded-t-lg">
       <div class="flex flex-col justify-center">
         {{ partial "profilePhoto" . }}
         <div class="px-2 text-center">{{ partial "social" . }}</div>
@@ -9,10 +9,10 @@
     </div>
     {{ partial "footer" . }}
   </div>
-  <div class="col-span-3 relative">
+  <div class="lg:col-span-3 relative">
     {{ $found_expanded := false }}
     {{ range .Site.Params.accordion }}
-    <div class="px-2">
+    <div class="px-2 sm:px-4">
       <h2 class="accordion {{- if and (.expand) (not $found_expanded) }} active {{- $found_expanded = true }} {{- end }}">
         {{ $current := index $.Site.Data .item }}
         <p onclick="expandAccordion(this)" style="cursor: pointer">
@@ -22,7 +22,7 @@
       </h2>
 
       <div
-        class="panel overflow-hidden px-2 ml-2"
+        class="panel overflow-hidden px-2 sm:px-4 ml-2"
         {{ if .panel_id }}
         id="{{ .panel_id }}"
         {{ end }}
@@ -33,6 +33,9 @@
       </div>
     </div>
     {{ end }}
+    <div class="px-2 sm:px-4 mt-4">
+      <img src="{{ `images/shotokan_transparent.png` | relURL }}" alt="Shotokan" class="w-full max-w-md" />
+    </div>
   </div>
 </div>
 {{ end }}

@@ -3,23 +3,28 @@
   "icon": "bi bi-mortarboard",
   "list": [
     {
-      "degree": "Ph.D. in Subject",
-      "college": "University of State-City",
-      "dates": "2013 - 2018",
-      "thesis_title": "Effect of humans on other humans: a study of human behavior.",
-      "thesis_url": "#"
+      "degree": "Data Science & Machine Learning Bootcamp",
+      "college": "Liora",
+      "dates": "2025 - 2026",
+      "thesis_title": "Intensive bootcamp covering exploratory data analysis, statistics, Python programming (NumPy/Pandas), machine learning models, model evaluation, data preprocessing workflows, and AWS Cloud Practitioner fundamentals."
     },
     {
-      "degree": "M.S. in Subject",
-      "college": "University of State-City",
-      "dates": "2013 - 2018",
-      "thesis_title": "Effect of humans on other humans: a study of human behavior.",
-      "thesis_url": "#"
+      "degree": "9-Week Full-Stack Web Development Bootcamp",
+      "college": "Ironhack, Berlin",
+      "dates": "2023",
+      "thesis_title": "Acquired skills in JavaScript (ES6), TypeScript, MongoDB, ExpressJs, ReactJs, NodeJs, HTML, and CSS."
     },
     {
-      "degree": "B.S. in Subject",
-      "college": "University of State-City",
-      "dates": "2004 - 2009"
+      "degree": "6-Month Coding Workshop",
+      "college": "SheCodes (Remote)",
+      "dates": "2021 - 2022",
+      "thesis_title": "Focused on practical web development with React and live API integrations through hands-on projects."
+    },
+    {
+      "degree": "Bachelor's Degree in Economics & Business Management (Major: Finance)",
+      "college": "Ruppin Academic Centre, Israel",
+      "dates": "2013 - 2016",
+      "thesis_title": "Dissertation: Economic Wealth Inequality in the State of Israel. Conducted quantitative research, analyzed large datasets, and used tools including SAP and SPSS for reporting and analysis."
     }
   ]
 }
