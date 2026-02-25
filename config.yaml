@@ -6,7 +6,7 @@ build:
 params:
   tailwind: '"npx tailwindcss"'
   author: Diana Dee Kalstein
-  description: Website title
+  description: Dee's Portfolio
   copyright: coded by Dee
   theme:
     singlePage: false
