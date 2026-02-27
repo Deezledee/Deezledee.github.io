@@ -8,9 +8,13 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     permissions:
       pages: write
-      contents: write
+      id-token: write
+      contents: read
 
     steps:
       - name: Checkout code
@@ -38,9 +42,14 @@ jobs:
           hugo -b https://dianadeekalstein.com
           npx -y pagefind --site public
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: $GITHUB_TOKEN
-          publish_dir: ./public
-          publish_branch: gh-pages
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
