@@ -24,7 +24,7 @@
     {
       "title": "MLOps & Deployment",
       "items": [
-        "Docker | ML Pipelines | Data APIs | Streamlit | Git/GitHub | Linux | Bash | AWS (CP) | Airtable | API Integrations | OCI | SAP & ERP | Vercel | LLM APIs | Prompt Engineering | RAG | AI Agents (LangChain/LangGraph)"
+        "Docker | Kubernetes | ML Pipelines | Data APIs | Streamlit | Git/GitHub | Linux | Bash | AWS (CP) | Airtable | API Integrations | OCI | SAP & ERP | Vercel | LLM APIs | Prompt Engineering | RAG | AI Agents (LangChain/LangGraph)"
       ]
     },
     {
