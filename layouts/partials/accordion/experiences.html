@@ -1,4 +1,7 @@
-{{ range .Site.Data.experiences.list }}
+{{ $data := .Site.Data }}
+{{ $localized := index .Site.Data .Site.Language.Lang }}
+{{ if $localized }}{{ $data = $localized }}{{ end }}
+{{ range $data.experiences.list }}
 <h4 style="text-decoration: underline">{{ .position }}</h4>
 <p {{if .details }}class="mb-0"{{ end }}>
   {{ .dates | markdownify }} &middot;

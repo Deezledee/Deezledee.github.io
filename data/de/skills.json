@@ -1,0 +1,49 @@
+{
+  "title": "Fähigkeiten",
+  "panelId": "skill-panel",
+  "icon": "bi bi-list-check",
+  "topics": [
+    {
+      "title": "Full-Stack Webentwicklung",
+      "items": [
+        "HTML | CSS | JavaScript (ES6) | TypeScript | React | ReactJs | Material UI | Bootstrap | ExpressJs | NodeJs | MongoDB | Axios | Git | GitHub | P5 Js | Cursor"
+      ]
+    },
+    {
+      "title": "Data Science & ML",
+      "items": [
+        "Python | Pandas | scikit-learn | Classification | Regression | Clustering | Feature Engineering | Model Evaluation | Time Series | NLP"
+      ]
+    },
+    {
+      "title": "Deep Learning & Computer Vision",
+      "items": [
+        "PyTorch | TensorFlow | Keras | CNNs | Transfer Learning | OpenCV | Transformers"
+      ]
+    },
+    {
+      "title": "MLOps & Deployment",
+      "items": [
+        "Docker | Kubernetes | ML Pipelines | Data APIs | Streamlit | Git/GitHub | Linux | Bash | AWS (CP) | Airtable | API Integrations | OCI | SAP & ERP | Vercel | LLM APIs | Prompt Engineering | RAG | AI Agents (LangChain/LangGraph)"
+      ]
+    },
+    {
+      "title": "Daten & Visualisierung",
+      "items": [
+        "SQL | Matplotlib | Seaborn | Plotly | Data Cleaning | EDA"
+      ]
+    },
+    {
+      "title": "Sprachkenntnisse",
+      "items": [
+        "Englisch (C1, professionelle Arbeitskompetenz) | Deutsch (C2, professionelle Arbeitskompetenz) | Hebräisch (Muttersprache)"
+      ]
+    },
+    {
+      "title": "Soft Skills",
+      "items": [
+        "Analytisches Denken | Problemlösung | Effektive Kommunikation | Teamarbeit | Empathie | Zeitmanagement | Kreativität | Verantwortungsbewusstsein | Multitasking | Organisations- und Planungskompetenz"
+      ]
+    }
+  ]
+}

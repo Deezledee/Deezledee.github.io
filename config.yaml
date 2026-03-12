@@ -1,5 +1,15 @@
 baseURL: /
-languageCode: en-us
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: false
+languages:
+  en:
+    languageName: English
+    languageCode: en-us
+    weight: 1
+  de:
+    languageName: Deutsch
+    languageCode: de-de
+    weight: 2
 build:
   writeStats: true
 

@@ -1,8 +1,13 @@
+{{ $data := .Site.Data }}
+{{ $localized := index .Site.Data .Site.Language.Lang }}
+{{ if $localized }}{{ $data = $localized }}{{ end }}
+{{ if $data.hobbies.description }}
 <p class="mb-3">
-  Enthusiastic Shotokan Karate association member of a second Dan level (3rd Dan in March) who enjoys regular trainings, workshops and competitions.
+  {{ $data.hobbies.description | markdownify }}
 </p>
+{{ end }}
 <ul class="pl-0">
-  {{ range.Site.Data.hobbies.list }}
+  {{ range $data.hobbies.list }}
   <li class="list-unstyled mb-2">{{ .hobby }}</li>
   {{ end }}
 </ul>

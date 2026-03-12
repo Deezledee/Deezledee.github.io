@@ -1,6 +1,9 @@
-{{ if .Site.Data.skills.topics }}
+{{ $data := .Site.Data }}
+{{ $localized := index .Site.Data .Site.Language.Lang }}
+{{ if $localized }}{{ $data = $localized }}{{ end }}
+{{ if $data.skills.topics }}
 <div class="pl-0">
-  {{ range .Site.Data.skills.topics }}
+  {{ range $data.skills.topics }}
   <p class="mb-1 font-semibold">• {{ .title }}</p>
   {{ range .items }}
   <p class="mb-1 ms-4">{{ . }}</p>
@@ -9,7 +12,7 @@
   {{ end }}
 </div>
 {{ else }}
-<div class="pl-0">{{- range sort .Site.Data.skills.list "skill" -}}
+<div class="pl-0">{{- range sort $data.skills.list "skill" -}}
   <p class="mb-2">• {{ .skill }}</p>{{- end -}}
 </div>
 {{ end }}

@@ -1,0 +1,72 @@
+{
+  "title": "Berufserfahrung",
+  "icon": "bi bi-briefcase",
+  "list": [
+    {
+      "position": "Interface Managerin (Backend)",
+      "dates": "2025",
+      "company": "Eshop Guide",
+      "details": [
+        "Implementierung von Datenmigrationen und Integrationen zwischen Legacy-Systemen und Shopify mit Synesty, Middleware-Tools, Konnektoren und GraphQL.",
+        "Erstellung und Pflege von Prozess- und Ablaufdokumentationen für Transparenz und Nachvollziehbarkeit.",
+        "Durchführung von Datenmapping und -transformation zur Sicherstellung von Konsistenz und Datenintegrität.",
+        "Koordination mit Kund:innen, Projektmanager:innen und Stakeholdern zur Anforderungsanalyse und Umsetzung passgenauer Lösungen.",
+        "Einsatz neuer Technologien wie Shopify Liquid und Low-Code-Tools für flexible Schnittstellenentwicklung."
+      ]
+    },
+    {
+      "position": "Application Managerin (ERP)",
+      "dates": "2024",
+      "company": "Flink SE, Berlin, Germany",
+      "details": [
+        "Entwicklung komplexer SQL-Queries in Oracle Cloud Infrastructure zum Aufbau und Troubleshooting von Fehler-Dashboards.",
+        "Validierung markierter Datensätze mit Stakeholdern und Behebung von Datenabweichungen zwischen Oracle- und Lieferantendatenbanken.",
+        "Automatisierung von Workflows in CommerceTools über Airtable durch API-Integrationen.",
+        "Erstellung von Python-Skripten für Massenupdates von Produkten und Kategorien via CSV-Uploads in CommerceTools."
+      ]
+    },
+    {
+      "position": "Interface Developerin (Backend C#)",
+      "dates": "2023 - 2024",
+      "company": "Würth Elektronik Group GmbH, Berlin, Germany",
+      "details": [
+        "Entwicklung von ERP-Schnittstellen in C# für nahtlose Integration und Systemfunktionalität.",
+        "Implementierung lieferfokussierter Schnittstellenlösungen zur Verbesserung von Versandgenauigkeit und operativer Effizienz.",
+        "Einsatz von RabbitMQ Message Queues zur verbesserten Kommunikation zwischen ERP-Systemkomponenten."
+      ]
+    },
+    {
+      "position": "IT Specialist & Datenschutz",
+      "dates": "2021 - 2023",
+      "company": "Learnfield GmbH (Skoove), Berlin, Germany",
+      "details": [
+        "Unterstützung bei der GDPR-Compliance, Koordination mit dem Datenschutzbeauftragten und Konsolidierung der DPA/SCC-Dokumentation für Cloud-Services.",
+        "Bereitstellung von IT-Sicherheits-Awareness-Guidance für Kolleg:innen und Führungskräfte.",
+        "Leitung eines Projekts zur Verbesserung des Passwortmanagements und Optimierung von Zugriffsberechtigungen.",
+        "Wartung und Optimierung von Mitarbeitergeräten sowie der Office-IT-Infrastruktur.",
+        "Konfiguration interner Infrastruktur, einschließlich Access Points, DNS, Router, Switch und Load Balancing."
+      ]
+    },
+    {
+      "position": "Collection Referentin",
+      "dates": "2018 - 2019",
+      "company": "Clal Insurance Ltd, Tel-Aviv, Israel",
+      "details": [
+        "Überwachung von Kundenkonten und historischen Abrechnungsdaten zur Identifikation offener Forderungen.",
+        "Verhandlung von Zahlungsplänen und Koordination mit Kreditauskunfteien, Versicherungsgesellschaften, Anwält:innen und Arbeitgebern.",
+        "Erstellung von Forderungsberichten sowie Bearbeitung der zugehörigen Dokumentation und Datenerfassung."
+      ]
+    },
+    {
+      "position": "Firmenkundenberaterin",
+      "dates": "2017 - 2018",
+      "company": "Bank Hapoalim Ltd, Tel-Aviv, Israel",
+      "details": [
+        "Erbringung von Finanzdienstleistungen für kleine Unternehmen, einschließlich Krediten, Kreditprodukten und Beratung zu Rückzahlungsstrategien.",
+        "Bewertung der Kreditwürdigkeit und Betreuung von Kund:innen vom Onboarding bis zum laufenden Kontomanagement.",
+        "Gewinnung neuer Kund:innen und Stärkung langfristiger Kundenbeziehungen.",
+        "Zusammenarbeit mit internen Teams, um effiziente Banklösungen bereitzustellen und Kundenanliegen zeitnah zu lösen."
+      ]
+    }
+  ]
+}

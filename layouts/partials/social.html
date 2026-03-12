@@ -1,6 +1,9 @@
-<h1 class="mb-0 text-white">{{ .Site.Data.profile.name }}</h1>
-<h2 class="mb-0 tagline" style="color: oklch(0.795 0.184 86.047);">{{ .Site.Data.profile.tagline }}</h2>
-<h3 class="mb-4 text-white">{{ .Site.Data.profile.location }}</h3>
+{{ $data := .Site.Data }}
+{{ $localized := index .Site.Data .Site.Language.Lang }}
+{{ if $localized }}{{ $data = $localized }}{{ end }}
+<h1 class="mb-0 text-white">{{ $data.profile.name }}</h1>
+<h2 class="mb-0 tagline" style="color: oklch(0.795 0.184 86.047);">{{ $data.profile.tagline }}</h2>
+<h3 class="mb-4 text-white">{{ $data.profile.location }}</h3>
 <div class="mb-4 flex flex-wrap justify-center">
   {{ range $key, $value := .Site.Data.social }}
     {{ if or (in (lower $value.title) "linkedin") (in (lower $value.title) "github") }}

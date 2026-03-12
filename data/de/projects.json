@@ -1,0 +1,31 @@
+{
+  "title": "Projekte",
+  "icon": "bi bi-kanban",
+  "list": [
+    {
+      "title": "Karate-Portal (Abschlussprojekt im Bootcamp)",
+      "url": "https://getdojo.netlify.app/",
+      "description": "Entwicklung eines Full-Stack-Karate-Portals, in dem Nutzer:innen sich registrieren, einloggen, ihr Karateka-Profil verwalten, Techniken durchsuchen und Persönlichkeiten der Kampfkunst per CRUD-Funktionen erkunden können."
+    },
+    {
+      "title": "P5 Browser-Spiel",
+      "url": "https://my-family-guy-game.netlify.app/",
+      "description": "Entwicklung eines unterhaltsamen Chrome-Browser-Spiels mit P5.js, mit Fokus auf interaktives Gameplay und Frontend-Logik."
+    },
+    {
+      "title": "React Dictionary App",
+      "url": "https://dees-dictionary.netlify.app/",
+      "description": "Erstellung einer React-basierten Dictionary-Anwendung mit Integration von Live-Datenquellen und benutzerfreundlichen UI-Komponenten."
+    },
+    {
+      "title": "Weather Web Application",
+      "url": "https://adoring-kowalevski-9714eb.netlify.app/",
+      "description": "Entwicklung einer Wetter-Web-App mit Live-API-Integration und responsivem Frontend-Erlebnis."
+    },
+    {
+      "title": "COVID-19-Erkennung auf Basis von Thorax-Röntgenbildern",
+      "url": "/docs/COVID-19%20Detection%20from%20Chest%20X-Ray%20Images%20Project.pdf",
+      "description": "Data-Science-Projekt zur COVID-19-Erkennung auf Basis von Thorax-Röntgenbildern, kollaborativ im Team entwickelt. Enthält eine Grad-CAM-Interpretierbarkeits-Demo in einer Streamlit-App, die aktuell lokal auf localhost läuft (nicht gehostet)."
+    }
+  ]
+}

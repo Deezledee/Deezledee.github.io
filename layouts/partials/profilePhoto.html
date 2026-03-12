@@ -1,9 +1,12 @@
 <div
   class="w-full p-2 flex justify-center align-middle profile-photo-container"
 >
+  {{ $data := .Site.Data }}
+  {{ $localized := index .Site.Data .Site.Language.Lang }}
+  {{ if $localized }}{{ $data = $localized }}{{ end }}
   <img
     class="rounded-sm"
-    src="{{ `images` | relURL }}/{{ .Site.Data.profile.photo }}"
-    alt="{{ .Site.Data.profile.name }}"
+    src="{{ `images` | relURL }}/{{ $data.profile.photo }}"
+    alt="{{ $data.profile.name }}"
   />
 </div>

@@ -1,0 +1,30 @@
+{
+  "title": "Ausbildung",
+  "icon": "bi bi-mortarboard",
+  "list": [
+    {
+      "degree": "Data Science & Machine Learning Bootcamp",
+      "college": "Liora",
+      "dates": "2025 - 2026",
+      "thesis_title": "Intensives Bootcamp zu explorativer Datenanalyse, Statistik, Python-Programmierung (NumPy/Pandas), Machine-Learning-Modellen, Modellevaluierung, Datenvorverarbeitungs-Workflows und AWS Cloud Practitioner Grundlagen."
+    },
+    {
+      "degree": "Full-Stack Web Development Bootcamp",
+      "college": "Ironhack, Berlin",
+      "dates": "2023",
+      "thesis_title": "Erworbene Kenntnisse in JavaScript (ES6), TypeScript, MongoDB, ExpressJs, ReactJs, NodeJs, HTML und CSS."
+    },
+    {
+      "degree": "Web Development Coding Workshop",
+      "college": "SheCodes (Remote)",
+      "dates": "2021 - 2022",
+      "thesis_title": "Fokus auf praxisnahe Webentwicklung mit React und Live-API-Integrationen durch Hands-on-Projekte."
+    },
+    {
+      "degree": "Bachelor in Economics & Business Management (Schwerpunkt: Finanzen)",
+      "college": "Ruppin Academic Centre, Israel",
+      "dates": "2013 - 2016",
+      "thesis_title": "Abschlussarbeit: Wirtschaftliche Vermögensungleichheit im Staat Israel. Durchführung quantitativer Forschung, Analyse großer Datensätze und Einsatz von Tools wie SAP und SPSS für Reporting und Analyse."
+    }
+  ]
+}

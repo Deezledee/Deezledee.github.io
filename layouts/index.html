@@ -1,4 +1,7 @@
 {{ define "main" }}
+{{ $data := .Site.Data }}
+{{ $localized := index .Site.Data .Site.Language.Lang }}
+{{ if $localized }}{{ $data = $localized }}{{ end }}
 <div class="grid grid-cols-1 lg:grid-cols-5 gap-2 sm:gap-4 py-2 px-2 sm:px-0">
   <div class="lg:col-span-2">
     <div class="bg-gray-300 dark:bg-darker drop-shadow-md p-2 sm:p-4 rounded-t-lg">
@@ -14,7 +17,7 @@
     {{ range .Site.Params.accordion }}
     <div class="px-2 sm:px-4">
       <h2 class="accordion {{- if and (.expand) (not $found_expanded) }} active {{- $found_expanded = true }} {{- end }}">
-        {{ $current := index $.Site.Data .item }}
+        {{ $current := index $data .item }}
         <p onclick="expandAccordion(this)" style="cursor: pointer">
           <i class="{{ $current.icon }}"></i>
           {{ $current.title -}}

@@ -1,7 +1,22 @@
 <header
   class="nav flex flex-row row py-2 mb-6 w-full justify-between"
 >
-  <div>
-    <!-- Navigation links removed -->
+  <div></div>
+  {{ if gt (len .Sites) 1 }}
+  <div class="ml-auto flex items-center gap-3 text-sm font-medium">
+    {{ range .Sites }}
+    {{ $lang := .Language.Lang }}
+    {{ $label := "EN" }}
+    {{ $icon := "images/uk-icon.png" }}
+    {{ if eq $lang "de" }}
+    {{ $label = "DE" }}
+    {{ $icon = "images/germany-icon.png" }}
+    {{ end }}
+    <a href="{{ .Home.RelPermalink }}" class="inline-flex items-center gap-0.5 {{ if eq $.Site.Language.Lang $lang }}underline{{ end }}">
+      <img src="{{ $icon | relURL }}" alt="{{ $label }} flag" class="w-[10px] h-[10px] sm:w-3 sm:h-3 object-contain" />
+      <span>{{ $label }}</span>
+    </a>
+    {{ end }}
   </div>
+  {{ end }}
 </header>

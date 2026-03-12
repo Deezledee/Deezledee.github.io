@@ -1,3 +1,6 @@
+{{ $data := .Site.Data }}
+{{ $localized := index .Site.Data .Site.Language.Lang }}
+{{ if $localized }}{{ $data = $localized }}{{ end }}
 <p class="markdownify">
-  {{ .Site.Data.about_me.description | markdownify }}
+  {{ $data.about_me.description | markdownify }}
 </p>

@@ -1,7 +1,12 @@
-{{ range.Site.Data.projects.list }}
+{{ $data := .Site.Data }}
+{{ $localized := index .Site.Data .Site.Language.Lang }}
+{{ if $localized }}{{ $data = $localized }}{{ end }}
+{{ $viewLabel := "View Project" }}
+{{ if eq .Site.Language.Lang "de" }}{{ $viewLabel = "Projekt ansehen" }}{{ end }}
+{{ range $data.projects.list }}
 <p class="mb-1 font-semibold">• <span class="underline" style="color: oklch(0.795 0.184 86.047);">{{ .title }}</span></p>
 <p class="mb-1">
-  <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="underline">View Project</a>
+  <a href="{{ .url }}" target="_blank" rel="noopener noreferrer" class="underline">{{ $viewLabel }}</a>
 </p>
 <p class="markdownify mb-3">{{- .description | markdownify -}}</p>
 {{ end }}

@@ -1,4 +1,7 @@
-{{ range .Site.Data.education.list }}
+{{ $data := .Site.Data }}
+{{ $localized := index .Site.Data .Site.Language.Lang }}
+{{ if $localized }}{{ $data = $localized }}{{ end }}
+{{ range $data.education.list }}
 
 <h4 style="text-decoration: underline;">{{ .degree }}</h4>
 <p {{ if .thesis_title }}class="mb-0" {{ end }}>
