@@ -3,6 +3,11 @@
   "icon": "bi bi-kanban",
   "list": [
     {
+      "title": "AI Sales Assistant Agent",
+      "url": "https://sales-assistant-agent.onrender.com/chat",
+      "description": "Built a small AI assistant agent in VSCode using Python and LangChain to answer customer and pricing questions. It follows a ReAct-style architecture with tool use (CRM lookup, pricing retrieval, and a knowledge-base RAG tool), dynamically selects the right tool per query, and generates a final response.  \nChat demo: https://sales-assistant-agent.onrender.com/chat  \nAPI docs: https://sales-assistant-agent.onrender.com/docs  \nTry out the clickable prompt bubbles inside the chat."
+    },
+    {
       "title": "Karate Portal (Final Bootcamp Project)",
       "url": "https://getdojo.netlify.app/",
       "description": "Built a full-stack karate portal where users can sign up, log in, manage their karateka profile, browse techniques, and explore martial-arts personalities with CRUD functionality."

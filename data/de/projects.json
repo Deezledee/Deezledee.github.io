@@ -3,6 +3,11 @@
   "icon": "bi bi-kanban",
   "list": [
     {
+      "title": "KI Sales Assistant Agent",
+      "url": "https://sales-assistant-agent.onrender.com/chat",
+      "description": "Entwicklung eines kleinen KI-Assistant-Agents in VSCode mit Python und LangChain zur Beantwortung von Kunden- und Preisfragen. Der Agent nutzt eine ReAct-Architektur mit Tool-Use (CRM-Lookup, Preisabruf und ein Knowledge-Base-Tool mit einfachem RAG-Ansatz), wählt je nach Anfrage dynamisch das passende Tool aus und erzeugt anschließend die finale Antwort.  \nChat-Demo: https://sales-assistant-agent.onrender.com/chat  \nAPI-Doku: https://sales-assistant-agent.onrender.com/docs  \nTeste die klickbaren Prompt-Bubbles direkt im Chat."
+    },
+    {
       "title": "Karate-Portal (Abschlussprojekt im Bootcamp)",
       "url": "https://getdojo.netlify.app/",
       "description": "Entwicklung eines Full-Stack-Karate-Portals, in dem Nutzer:innen sich registrieren, einloggen, ihr Karateka-Profil verwalten, Techniken durchsuchen und Persönlichkeiten der Kampfkunst per CRUD-Funktionen erkunden können."
