@@ -6,7 +6,7 @@
     {
       "title": "Full-Stack Web Development",
       "items": [
-        "HTML | CSS | JavaScript (ES6) | TypeScript | React | ReactJs | Material UI | Bootstrap | ExpressJs | NodeJs | MongoDB | Axios | Git | GitHub | P5 Js | Cursor"
+        "HTML | CSS | JavaScript (ES6) | TypeScript | React | ReactJs | Material UI | Bootstrap | ExpressJs | NodeJs | MongoDB | Axios | Git | GitHub | P5 Js"
       ]
     },
     {
@@ -24,7 +24,7 @@
     {
       "title": "MLOps & Deployment",
       "items": [
-        "Docker | Kubernetes | ML Pipelines | Data APIs | Streamlit | Git/GitHub | Linux | Bash | AWS (CP) | Airtable | API Integrations | n8n | OCI | SAP & ERP | Vercel | LLM APIs | Prompt Engineering | RAG | AI Agents (LangChain/LangGraph)"
+        "Docker | Kubernetes | ML Pipelines | Data APIs | Streamlit | Git/GitHub | Linux | Bash | AWS (CP) | Airtable | API Integrations | n8n | OCI | SAP & ERP | LLM APIs | Prompt Engineering | RAG | AI Agents (LangChain/LangGraph)"
       ]
     },
     {
