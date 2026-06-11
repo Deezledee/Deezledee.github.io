@@ -3,6 +3,13 @@
   "icon": "bi bi-kanban",
   "list": [
     {
+      "title": "Project Gaia",
+      "url": "https://github.com/pj-gaia",
+      "description": "End-to-End-Software-Compliance-Plattform. Eine einheitliche, Kubernetes-native Toolsuite, die Best-in-Class-Open-Source-Anwendungen (Strapi für Richtlinienverwaltung, Dependency-Track für SBOM-Analyse) in einer einzigen Ingenieur- und Compliance-Plattform verbindet. Aktuell in Entwicklung und Beitrag. Geplant: Integration eines Q&A-Chatbots mit KI für Compliance-Unterstützung.",
+      "status": "Aktuell in Entwicklung",
+      "location": "Deutschland"
+    },
+    {
       "title": "KI Sales Assistant Agent",
       "url": "https://sales-assistant-agent.onrender.com/chat",
       "description": "Entwicklung eines kleinen KI-Assistant-Agents in VSCode mit Python und LangChain zur Beantwortung von Kunden- und Preisfragen. Der Agent nutzt eine ReAct-Architektur mit Tool-Use (CRM-Lookup, Preisabruf und ein Knowledge-Base-Tool mit einfachem RAG-Ansatz), wählt je nach Anfrage dynamisch das passende Tool aus und erzeugt anschließend die finale Antwort.  \nChat-Demo: https://sales-assistant-agent.onrender.com/chat  \nAPI-Doku: https://sales-assistant-agent.onrender.com/docs  \nTeste die klickbaren Prompt-Bubbles direkt im Chat."
